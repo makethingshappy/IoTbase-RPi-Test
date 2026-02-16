@@ -183,4 +183,5 @@ __pycache__/
 
 ## Author
 
-Developed for **BOKRA** — *make Things Happy!*
+Developed for **MTH LLC** — *make Things Happy!* 
+https://makethingshappy.io/
