@@ -1,0 +1,15 @@
+{
+  "mode": "post-check",
+  "marker": {
+    "error": "failed to read marker"
+  },
+  "bootstatus": 0,
+  "env": {
+    "host": "raspberrypi",
+    "platform": "Linux-6.12.47+rpt-rpi-v8-aarch64-with-glibc2.36",
+    "python": "3.11.2",
+    "uname": "Linux raspberrypi 6.12.47+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64 GNU/Linux",
+    "dmesg_tail": "[    5.651065] bcm2835-codec bcm2835-codec: Loaded V4L2 encode_image\n[    5.780414] cfg80211: Loading compiled-in X.509 certificates for regulatory database\n[    5.799355] Loaded X.509 cert 'benh@debian.org: 577e021cb980e0e820821ba7b54b4961b8b4fadf'\n[    5.805147] Loaded X.509 cert 'romain.perier@gmail.com: 3abbc6ec146e09d1b6016ab9d6cf71dd233f0328'\n[    5.805580] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'\n[    5.805993] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'\n[    5.908119] brcmfmac: F1 signature read @0x18000000=0x15264345\n[    5.911924] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6\n[    5.912256] usbcore: registered new interface driver brcmfmac\n[    6.195060] brcmfmac: brcmf_c_process_txcap_blob: no txcap_blob available (err=-2)\n[    6.195761] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM4345/6 wl0: Aug 29 2023 01:47:08 version 7.45.265 (28bca26 CY) FWID 01-b677b91b\n[    6.909031] Adding 524284k swap on /var/swap.  Priority:-2 extents:12 across:909308k \n[    8.356063] bcmgenet fd580000.ethernet: configuring instance for external RGMII (RX delay)\n[    8.357154] bcmgenet fd580000.ethernet eth0: Link is Up - 100Mbps/Full - flow control rx/tx\n[    8.376471] brcmfmac: brcmf_cfg80211_set_power_mgmt: power save enabled\n[   15.855094] Initializing XFRM netlink socket\n[   16.612710] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.\n[   18.714818] br-805873e5f7fe: port 1(vethdcd85ac) entered blocking state\n[   18.714861] br-805873e5f7fe: port 1(vethdcd85ac) entered disabled state\n[   18.714900] vethdcd85ac: entered allmulticast mode\n[   18.715527] vethdcd85ac: entered promiscuous mode\n[   18.849288] eth0: renamed from vethfc27e5b\n[   18.850959] br-805873e5f7fe: port 1(vethdcd85ac) entered blocking state\n[   18.850979] br-805873e5f7fe: port 1(vethdcd85ac) entered forwarding state\n[   46.831167] Bluetooth: Core ver 2.22\n[   46.831278] NET: Registered PF_BLUETOOTH protocol family\n[   46.831283] Bluetooth: HCI device and connection manager initialized\n[   46.831301] Bluetooth: HCI socket layer initialized\n[   46.831308] Bluetooth: L2CAP socket layer initialized\n[   46.831320] Bluetooth: SCO socket layer initialized",
+    "lsmod_watchdog": ""
+  }
+}

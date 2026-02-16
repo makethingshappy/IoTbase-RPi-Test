@@ -1,0 +1,45 @@
+{
+  "timestamp": "20260204_103504",
+  "chip": "24c08",
+  "base_addr": "0x54",
+  "bus": 1,
+  "verbose": true,
+  "i2cdetect_raw": "0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f\n00:                         -- -- -- -- -- -- -- -- \n10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- \n20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- \n30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- \n40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- \n50: -- -- -- -- 54 55 56 57 -- -- -- -- -- -- -- -- \n60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- \n70: -- -- -- -- -- -- -- --",
+  "scan_addrs": [
+    "0x54",
+    "0x55",
+    "0x56",
+    "0x57"
+  ],
+  "tests": [
+    {
+      "name": "last_byte",
+      "addr": "0x3ff",
+      "ok": true,
+      "time_ms": 5.5,
+      "value": "0xaa"
+    },
+    {
+      "name": "page_cross",
+      "range": "0xf0..0x10f",
+      "ok": true,
+      "time_ms": 166.1
+    },
+    {
+      "name": "block_cross",
+      "range": "0xf8..0x107",
+      "ok": true,
+      "time_ms": 83.0
+    },
+    {
+      "name": "mid_random_crc",
+      "addr": "0x200",
+      "length": 128,
+      "ok": true,
+      "crc32": "0xf503cdb5",
+      "time_ms": 662.7,
+      "bin_path": "reports/20260204_103504_midblock.bin"
+    }
+  ],
+  "total_time_ms": 918.2
+}

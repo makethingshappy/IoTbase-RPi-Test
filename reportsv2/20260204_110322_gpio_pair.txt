@@ -1,0 +1,14 @@
+# GPIO Pair Test — AP4 -> AP5 + reverse
+bidir: True  |  cycles: 2  |  delay: 0.2s  |  pull: down
+env: host=raspberrypi python=3.11.2
+
+AP4->AP5: OUT=0 -> IN=0  OK
+AP4->AP5: OUT=1 -> IN=1  OK
+AP4->AP5: OUT=0 -> IN=0  OK
+AP4->AP5: OUT=1 -> IN=1  OK
+AP5->AP4: OUT=0 -> IN=0  OK
+AP5->AP4: OUT=1 -> IN=1  OK
+AP5->AP4: OUT=0 -> IN=0  OK
+AP5->AP4: OUT=1 -> IN=1  OK
+
+summary: pass=8 fail=0

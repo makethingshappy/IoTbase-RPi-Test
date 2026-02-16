@@ -1,0 +1,14 @@
+# GPIO Pair Test — AP6 -> AP7 + reverse
+bidir: True  |  cycles: 2  |  delay: 0.2s  |  pull: down
+env: host=raspberrypi python=3.11.2
+
+AP6->AP7: OUT=0 -> IN=0  OK
+AP6->AP7: OUT=1 -> IN=1  OK
+AP6->AP7: OUT=0 -> IN=0  OK
+AP6->AP7: OUT=1 -> IN=1  OK
+AP7->AP6: OUT=0 -> IN=0  OK
+AP7->AP6: OUT=1 -> IN=1  OK
+AP7->AP6: OUT=0 -> IN=0  OK
+AP7->AP6: OUT=1 -> IN=1  OK
+
+summary: pass=8 fail=0

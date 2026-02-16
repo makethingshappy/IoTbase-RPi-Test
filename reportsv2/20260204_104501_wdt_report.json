@@ -1,0 +1,28 @@
+{
+  "mode": "feed-only",
+  "timeout_req": 5,
+  "run_seconds": 180,
+  "feed_period": 0.5,
+  "timeout_set": 5,
+  "bootstatus_before": 0,
+  "log_tail": [
+    "Running\u2026 LED:0 elapsed:175.6s fed",
+    "Running\u2026 LED:1 elapsed:176.1s fed",
+    "Running\u2026 LED:0 elapsed:176.6s fed",
+    "Running\u2026 LED:1 elapsed:177.1s fed",
+    "Running\u2026 LED:0 elapsed:177.6s fed",
+    "Running\u2026 LED:1 elapsed:178.1s fed",
+    "Running\u2026 LED:0 elapsed:178.6s fed",
+    "Running\u2026 LED:1 elapsed:179.1s fed",
+    "Running\u2026 LED:0 elapsed:179.6s fed",
+    "Graceful close with magic 'V' \u2014 no reboot expected."
+  ],
+  "env": {
+    "host": "raspberrypi",
+    "platform": "Linux-6.12.47+rpt-rpi-v8-aarch64-with-glibc2.36",
+    "python": "3.11.2",
+    "uname": "Linux raspberrypi 6.12.47+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64 GNU/Linux",
+    "dmesg_tail": "[    5.496988] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video23\n[    5.497010] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6\n[    5.497016] bcm2835-isp bcm2835-isp: Register output node 0 with media controller\n[    5.497025] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller\n[    5.497031] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller\n[    5.497036] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller\n[    5.497228] bcm2835-isp bcm2835-isp: Loaded V4L2 bcm2835-isp\n[    5.593932] usbcore: registered new interface driver brcmfmac\n[    5.733075] brcmfmac: brcmf_c_process_txcap_blob: no txcap_blob available (err=-2)\n[    5.733540] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM4345/6 wl0: Aug 29 2023 01:47:08 version 7.45.265 (28bca26 CY) FWID 01-b677b91b\n[    6.826947] Adding 524284k swap on /var/swap.  Priority:-2 extents:12 across:909308k \n[    8.265035] bcmgenet fd580000.ethernet: configuring instance for external RGMII (RX delay)\n[    8.266215] bcmgenet fd580000.ethernet eth0: Link is Down\n[    8.281775] brcmfmac: brcmf_cfg80211_set_power_mgmt: power save enabled\n[   18.254234] Initializing XFRM netlink socket\n[   18.813559] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.\n[   20.651476] br-805873e5f7fe: port 1(vethe095c53) entered blocking state\n[   20.651511] br-805873e5f7fe: port 1(vethe095c53) entered disabled state\n[   20.651551] vethe095c53: entered allmulticast mode\n[   20.652360] vethe095c53: entered promiscuous mode\n[   20.743049] eth0: renamed from veth617914c\n[   20.744579] br-805873e5f7fe: port 1(vethe095c53) entered blocking state\n[   20.744601] br-805873e5f7fe: port 1(vethe095c53) entered forwarding state\n[   44.452123] Bluetooth: Core ver 2.22\n[   44.452229] NET: Registered PF_BLUETOOTH protocol family\n[   44.452234] Bluetooth: HCI device and connection manager initialized\n[   44.452252] Bluetooth: HCI socket layer initialized\n[   44.452260] Bluetooth: L2CAP socket layer initialized\n[   44.452272] Bluetooth: SCO socket layer initialized\n[  150.597942] bcmgenet fd580000.ethernet eth0: Link is Up - 100Mbps/Full - flow control rx/tx",
+    "lsmod_watchdog": ""
+  }
+}

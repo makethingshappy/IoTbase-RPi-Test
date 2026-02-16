@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "timestamp": "20260204_110512",
+    "note": "HOST-P12 DI snapshot + DO interactive",
+    "mapping": {
+      "DO1-4": [
+        5,
+        6,
+        19,
+        26
+      ],
+      "DI1-4": [
+        24,
+        16,
+        20,
+        21
+      ]
+    }
+  },
+  "inputs": {
+    "DI1": 0,
+    "DI2": 0,
+    "DI3": 0,
+    "DI4": 0
+  }
+}

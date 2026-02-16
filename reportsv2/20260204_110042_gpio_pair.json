@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "AP2 -> AP3 + reverse",
+    "bidir": true,
+    "cycles": 2,
+    "delay": 0.2,
+    "pull": "down",
+    "mapping": {
+      "AP->BCM": {
+        "0": 5,
+        "1": 6,
+        "2": 19,
+        "3": 26,
+        "4": 24,
+        "5": 16,
+        "6": 20,
+        "7": 21
+      }
+    },
+    "env": {
+      "host": "raspberrypi",
+      "python": "3.11.2"
+    },
+    "pass": 8,
+    "fail": 0
+  },
+  "rows": [
+    {
+      "dir": "AP2->AP3",
+      "out_gpio": 19,
+      "in_gpio": 26,
+      "written": 0,
+      "read": 0,
+      "ok": true,
+      "ts": 1770199240.616337
+    },
+    {
+      "dir": "AP2->AP3",
+      "out_gpio": 19,
+      "in_gpio": 26,
+      "written": 1,
+      "read": 1,
+      "ok": true,
+      "ts": 1770199240.8164873
+    },
+    {
+      "dir": "AP2->AP3",
+      "out_gpio": 19,
+      "in_gpio": 26,
+      "written": 0,
+      "read": 0,
+      "ok": true,
+      "ts": 1770199241.0166104
+    },
+    {
+      "dir": "AP2->AP3",
+      "out_gpio": 19,
+      "in_gpio": 26,
+      "written": 1,
+      "read": 1,
+      "ok": true,
+      "ts": 1770199241.2167811
+    },
+    {
+      "dir": "AP3->AP2",
+      "out_gpio": 26,
+      "in_gpio": 19,
+      "written": 0,
+      "read": 0,
+      "ok": true,
+      "ts": 1770199241.4172575
+    },
+    {
+      "dir": "AP3->AP2",
+      "out_gpio": 26,
+      "in_gpio": 19,
+      "written": 1,
+      "read": 1,
+      "ok": true,
+      "ts": 1770199241.6174047
+    },
+    {
+      "dir": "AP3->AP2",
+      "out_gpio": 26,
+      "in_gpio": 19,
+      "written": 0,
+      "read": 0,
+      "ok": true,
+      "ts": 1770199241.8175292
+    },
+    {
+      "dir": "AP3->AP2",
+      "out_gpio": 26,
+      "in_gpio": 19,
+      "written": 1,
+      "read": 1,
+      "ok": true,
+      "ts": 1770199242.0176654
+    }
+  ]
+}

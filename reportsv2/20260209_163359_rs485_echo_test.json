@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "timestamp": "20260209_163359",
+    "test": "RS485 Echo Test",
+    "port": "/dev/ttyAMA0",
+    "baudrate": 115200,
+    "pass": 3,
+    "fail": 7,
+    "total": 10,
+    "env": {
+      "host": "raspberrypi",
+      "platform": "Linux-6.12.47+rpt-rpi-v8-aarch64-with-glibc2.36",
+      "python": "3.11.2"
+    }
+  },
+  "results": [
+    {
+      "test_num": 1,
+      "tx": "Hello_RS485",
+      "rx": "Hello_RS485",
+      "ok": true,
+      "latency_ms": 2007.62
+    },
+    {
+      "test_num": 2,
+      "tx": "Test_12345",
+      "rx": "Test_12345",
+      "ok": true,
+      "latency_ms": 2007.73
+    },
+    {
+      "test_num": 3,
+      "tx": "ABCDEFGHIJ",
+      "rx": "ABCDEFGHIJ",
+      "ok": true,
+      "latency_ms": 2007.84
+    },
+    {
+      "test_num": 4,
+      "tx": "IoTbase_RPi",
+      "rx": "IoTbase_RPi",
+      "ok": true,
+      "latency_ms": 2006.92
+    },
+    {
+      "test_num": 5,
+      "tx": "!@#$%^&*()",
+      "rx": "!@#$%^&*()",
+      "ok": true,
+      "latency_ms": 2008.4
+    },
+    {
+      "test_num": 6,
+      "tx": "Short",
+      "rx": "Short",
+      "ok": true,
+      "latency_ms": 2007.63
+    },
+    {
+      "test_num": 7,
+      "tx": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "rx": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "ok": true,
+      "latency_ms": 2031.67
+    },
+    {
+      "test_num": 8,
+      "tx": "MixedCase123",
+      "rx": "MixedCase123",
+      "ok": true,
+      "latency_ms": 2015.68
+    },
+    {
+      "test_num": 9,
+      "tx": "Spaces work too",
+      "rx": "Spaces work too",
+      "ok": true,
+      "latency_ms": 2015.23
+    },
+    {
+      "test_num": 10,
+      "tx": "Final_Test",
+      "rx": "Final_Test",
+      "ok": true,
+      "latency_ms": 2008.13
+    }
+  ]
+}

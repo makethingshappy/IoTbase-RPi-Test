@@ -1,0 +1,402 @@
+# Watchdog Feed-Only Test (non-destructive)
+timeout_set: 5s | run_seconds: 180 | feed_period: 0.5s
+bootstatus_before: 0x00000000 (WDIOF_CARDRESET=no)
+Program started | /dev/watchdog opened | timeout set=5s
+Running… LED:1 elapsed:0.0s fed
+Running… LED:0 elapsed:0.5s fed
+Running… LED:1 elapsed:1.0s fed
+Running… LED:0 elapsed:1.5s fed
+Running… LED:1 elapsed:2.0s fed
+Running… LED:0 elapsed:2.5s fed
+Running… LED:1 elapsed:3.0s fed
+Running… LED:0 elapsed:3.5s fed
+Running… LED:1 elapsed:4.0s fed
+Running… LED:0 elapsed:4.5s fed
+Running… LED:1 elapsed:5.0s fed
+Running… LED:0 elapsed:5.5s fed
+Running… LED:1 elapsed:6.0s fed
+Running… LED:0 elapsed:6.5s fed
+Running… LED:1 elapsed:7.0s fed
+Running… LED:0 elapsed:7.5s fed
+Running… LED:1 elapsed:8.0s fed
+Running… LED:0 elapsed:8.5s fed
+Running… LED:1 elapsed:9.0s fed
+Running… LED:0 elapsed:9.5s fed
+Running… LED:1 elapsed:10.0s fed
+Running… LED:0 elapsed:10.5s fed
+Running… LED:1 elapsed:11.0s fed
+Running… LED:0 elapsed:11.5s fed
+Running… LED:1 elapsed:12.0s fed
+Running… LED:0 elapsed:12.5s fed
+Running… LED:1 elapsed:13.0s fed
+Running… LED:0 elapsed:13.5s fed
+Running… LED:1 elapsed:14.0s fed
+Running… LED:0 elapsed:14.5s fed
+Running… LED:1 elapsed:15.0s fed
+Running… LED:0 elapsed:15.5s fed
+Running… LED:1 elapsed:16.0s fed
+Running… LED:0 elapsed:16.5s fed
+Running… LED:1 elapsed:17.0s fed
+Running… LED:0 elapsed:17.5s fed
+Running… LED:1 elapsed:18.0s fed
+Running… LED:0 elapsed:18.5s fed
+Running… LED:1 elapsed:19.0s fed
+Running… LED:0 elapsed:19.5s fed
+Running… LED:1 elapsed:20.0s fed
+Running… LED:0 elapsed:20.5s fed
+Running… LED:1 elapsed:21.0s fed
+Running… LED:0 elapsed:21.5s fed
+Running… LED:1 elapsed:22.0s fed
+Running… LED:0 elapsed:22.5s fed
+Running… LED:1 elapsed:23.0s fed
+Running… LED:0 elapsed:23.5s fed
+Running… LED:1 elapsed:24.0s fed
+Running… LED:0 elapsed:24.5s fed
+Running… LED:1 elapsed:25.0s fed
+Running… LED:0 elapsed:25.5s fed
+Running… LED:1 elapsed:26.0s fed
+Running… LED:0 elapsed:26.5s fed
+Running… LED:1 elapsed:27.0s fed
+Running… LED:0 elapsed:27.5s fed
+Running… LED:1 elapsed:28.0s fed
+Running… LED:0 elapsed:28.5s fed
+Running… LED:1 elapsed:29.0s fed
+Running… LED:0 elapsed:29.5s fed
+Running… LED:1 elapsed:30.0s fed
+Running… LED:0 elapsed:30.5s fed
+Running… LED:1 elapsed:31.0s fed
+Running… LED:0 elapsed:31.5s fed
+Running… LED:1 elapsed:32.0s fed
+Running… LED:0 elapsed:32.5s fed
+Running… LED:1 elapsed:33.0s fed
+Running… LED:0 elapsed:33.5s fed
+Running… LED:1 elapsed:34.0s fed
+Running… LED:0 elapsed:34.5s fed
+Running… LED:1 elapsed:35.0s fed
+Running… LED:0 elapsed:35.5s fed
+Running… LED:1 elapsed:36.0s fed
+Running… LED:0 elapsed:36.5s fed
+Running… LED:1 elapsed:37.0s fed
+Running… LED:0 elapsed:37.5s fed
+Running… LED:1 elapsed:38.0s fed
+Running… LED:0 elapsed:38.5s fed
+Running… LED:1 elapsed:39.0s fed
+Running… LED:0 elapsed:39.5s fed
+Running… LED:1 elapsed:40.0s fed
+Running… LED:0 elapsed:40.5s fed
+Running… LED:1 elapsed:41.0s fed
+Running… LED:0 elapsed:41.5s fed
+Running… LED:1 elapsed:42.0s fed
+Running… LED:0 elapsed:42.5s fed
+Running… LED:1 elapsed:43.0s fed
+Running… LED:0 elapsed:43.5s fed
+Running… LED:1 elapsed:44.0s fed
+Running… LED:0 elapsed:44.5s fed
+Running… LED:1 elapsed:45.0s fed
+Running… LED:0 elapsed:45.5s fed
+Running… LED:1 elapsed:46.0s fed
+Running… LED:0 elapsed:46.5s fed
+Running… LED:1 elapsed:47.0s fed
+Running… LED:0 elapsed:47.5s fed
+Running… LED:1 elapsed:48.0s fed
+Running… LED:0 elapsed:48.5s fed
+Running… LED:1 elapsed:49.0s fed
+Running… LED:0 elapsed:49.5s fed
+Running… LED:1 elapsed:50.0s fed
+Running… LED:0 elapsed:50.5s fed
+Running… LED:1 elapsed:51.0s fed
+Running… LED:0 elapsed:51.5s fed
+Running… LED:1 elapsed:52.0s fed
+Running… LED:0 elapsed:52.5s fed
+Running… LED:1 elapsed:53.0s fed
+Running… LED:0 elapsed:53.5s fed
+Running… LED:1 elapsed:54.0s fed
+Running… LED:0 elapsed:54.5s fed
+Running… LED:1 elapsed:55.0s fed
+Running… LED:0 elapsed:55.5s fed
+Running… LED:1 elapsed:56.0s fed
+Running… LED:0 elapsed:56.5s fed
+Running… LED:1 elapsed:57.0s fed
+Running… LED:0 elapsed:57.5s fed
+Running… LED:1 elapsed:58.0s fed
+Running… LED:0 elapsed:58.5s fed
+Running… LED:1 elapsed:59.0s fed
+Running… LED:0 elapsed:59.5s fed
+Running… LED:1 elapsed:60.0s fed
+Running… LED:0 elapsed:60.5s fed
+Running… LED:1 elapsed:61.0s fed
+Running… LED:0 elapsed:61.5s fed
+Running… LED:1 elapsed:62.0s fed
+Running… LED:0 elapsed:62.5s fed
+Running… LED:1 elapsed:63.0s fed
+Running… LED:0 elapsed:63.5s fed
+Running… LED:1 elapsed:64.0s fed
+Running… LED:0 elapsed:64.5s fed
+Running… LED:1 elapsed:65.0s fed
+Running… LED:0 elapsed:65.5s fed
+Running… LED:1 elapsed:66.0s fed
+Running… LED:0 elapsed:66.5s fed
+Running… LED:1 elapsed:67.0s fed
+Running… LED:0 elapsed:67.5s fed
+Running… LED:1 elapsed:68.0s fed
+Running… LED:0 elapsed:68.5s fed
+Running… LED:1 elapsed:69.0s fed
+Running… LED:0 elapsed:69.5s fed
+Running… LED:1 elapsed:70.0s fed
+Running… LED:0 elapsed:70.5s fed
+Running… LED:1 elapsed:71.0s fed
+Running… LED:0 elapsed:71.5s fed
+Running… LED:1 elapsed:72.0s fed
+Running… LED:0 elapsed:72.5s fed
+Running… LED:1 elapsed:73.0s fed
+Running… LED:0 elapsed:73.5s fed
+Running… LED:1 elapsed:74.0s fed
+Running… LED:0 elapsed:74.5s fed
+Running… LED:1 elapsed:75.0s fed
+Running… LED:0 elapsed:75.5s fed
+Running… LED:1 elapsed:76.0s fed
+Running… LED:0 elapsed:76.5s fed
+Running… LED:1 elapsed:77.0s fed
+Running… LED:0 elapsed:77.5s fed
+Running… LED:1 elapsed:78.0s fed
+Running… LED:0 elapsed:78.5s fed
+Running… LED:1 elapsed:79.0s fed
+Running… LED:0 elapsed:79.5s fed
+Running… LED:1 elapsed:80.0s fed
+Running… LED:0 elapsed:80.5s fed
+Running… LED:1 elapsed:81.0s fed
+Running… LED:0 elapsed:81.5s fed
+Running… LED:1 elapsed:82.0s fed
+Running… LED:0 elapsed:82.5s fed
+Running… LED:1 elapsed:83.0s fed
+Running… LED:0 elapsed:83.5s fed
+Running… LED:1 elapsed:84.0s fed
+Running… LED:0 elapsed:84.5s fed
+Running… LED:1 elapsed:85.0s fed
+Running… LED:0 elapsed:85.5s fed
+Running… LED:1 elapsed:86.0s fed
+Running… LED:0 elapsed:86.5s fed
+Running… LED:1 elapsed:87.0s fed
+Running… LED:0 elapsed:87.5s fed
+Running… LED:1 elapsed:88.0s fed
+Running… LED:0 elapsed:88.5s fed
+Running… LED:1 elapsed:89.0s fed
+Running… LED:0 elapsed:89.5s fed
+Running… LED:1 elapsed:90.0s fed
+Running… LED:0 elapsed:90.5s fed
+Running… LED:1 elapsed:91.0s fed
+Running… LED:0 elapsed:91.5s fed
+Running… LED:1 elapsed:92.0s fed
+Running… LED:0 elapsed:92.5s fed
+Running… LED:1 elapsed:93.0s fed
+Running… LED:0 elapsed:93.5s fed
+Running… LED:1 elapsed:94.0s fed
+Running… LED:0 elapsed:94.5s fed
+Running… LED:1 elapsed:95.0s fed
+Running… LED:0 elapsed:95.5s fed
+Running… LED:1 elapsed:96.0s fed
+Running… LED:0 elapsed:96.5s fed
+Running… LED:1 elapsed:97.0s fed
+Running… LED:0 elapsed:97.5s fed
+Running… LED:1 elapsed:98.0s fed
+Running… LED:0 elapsed:98.5s fed
+Running… LED:1 elapsed:99.0s fed
+Running… LED:0 elapsed:99.5s fed
+Running… LED:1 elapsed:100.0s fed
+Running… LED:0 elapsed:100.5s fed
+Running… LED:1 elapsed:101.0s fed
+Running… LED:0 elapsed:101.5s fed
+Running… LED:1 elapsed:102.0s fed
+Running… LED:0 elapsed:102.5s fed
+Running… LED:1 elapsed:103.0s fed
+Running… LED:0 elapsed:103.5s fed
+Running… LED:1 elapsed:104.0s fed
+Running… LED:0 elapsed:104.5s fed
+Running… LED:1 elapsed:105.0s fed
+Running… LED:0 elapsed:105.5s fed
+Running… LED:1 elapsed:106.0s fed
+Running… LED:0 elapsed:106.5s fed
+Running… LED:1 elapsed:107.0s fed
+Running… LED:0 elapsed:107.5s fed
+Running… LED:1 elapsed:108.0s fed
+Running… LED:0 elapsed:108.5s fed
+Running… LED:1 elapsed:109.0s fed
+Running… LED:0 elapsed:109.5s fed
+Running… LED:1 elapsed:110.0s fed
+Running… LED:0 elapsed:110.5s fed
+Running… LED:1 elapsed:111.0s fed
+Running… LED:0 elapsed:111.5s fed
+Running… LED:1 elapsed:112.0s fed
+Running… LED:0 elapsed:112.5s fed
+Running… LED:1 elapsed:113.0s fed
+Running… LED:0 elapsed:113.5s fed
+Running… LED:1 elapsed:114.0s fed
+Running… LED:0 elapsed:114.5s fed
+Running… LED:1 elapsed:115.0s fed
+Running… LED:0 elapsed:115.5s fed
+Running… LED:1 elapsed:116.0s fed
+Running… LED:0 elapsed:116.5s fed
+Running… LED:1 elapsed:117.0s fed
+Running… LED:0 elapsed:117.5s fed
+Running… LED:1 elapsed:118.0s fed
+Running… LED:0 elapsed:118.5s fed
+Running… LED:1 elapsed:119.0s fed
+Running… LED:0 elapsed:119.5s fed
+Running… LED:1 elapsed:120.0s fed
+Running… LED:0 elapsed:120.5s fed
+Running… LED:1 elapsed:121.0s fed
+Running… LED:0 elapsed:121.5s fed
+Running… LED:1 elapsed:122.0s fed
+Running… LED:0 elapsed:122.5s fed
+Running… LED:1 elapsed:123.0s fed
+Running… LED:0 elapsed:123.5s fed
+Running… LED:1 elapsed:124.0s fed
+Running… LED:0 elapsed:124.5s fed
+Running… LED:1 elapsed:125.0s fed
+Running… LED:0 elapsed:125.5s fed
+Running… LED:1 elapsed:126.0s fed
+Running… LED:0 elapsed:126.5s fed
+Running… LED:1 elapsed:127.0s fed
+Running… LED:0 elapsed:127.5s fed
+Running… LED:1 elapsed:128.0s fed
+Running… LED:0 elapsed:128.5s fed
+Running… LED:1 elapsed:129.0s fed
+Running… LED:0 elapsed:129.5s fed
+Running… LED:1 elapsed:130.0s fed
+Running… LED:0 elapsed:130.5s fed
+Running… LED:1 elapsed:131.0s fed
+Running… LED:0 elapsed:131.5s fed
+Running… LED:1 elapsed:132.0s fed
+Running… LED:0 elapsed:132.5s fed
+Running… LED:1 elapsed:133.0s fed
+Running… LED:0 elapsed:133.5s fed
+Running… LED:1 elapsed:134.0s fed
+Running… LED:0 elapsed:134.5s fed
+Running… LED:1 elapsed:135.0s fed
+Running… LED:0 elapsed:135.5s fed
+Running… LED:1 elapsed:136.0s fed
+Running… LED:0 elapsed:136.5s fed
+Running… LED:1 elapsed:137.0s fed
+Running… LED:0 elapsed:137.5s fed
+Running… LED:1 elapsed:138.0s fed
+Running… LED:0 elapsed:138.5s fed
+Running… LED:1 elapsed:139.0s fed
+Running… LED:0 elapsed:139.5s fed
+Running… LED:1 elapsed:140.0s fed
+Running… LED:0 elapsed:140.5s fed
+Running… LED:1 elapsed:141.0s fed
+Running… LED:0 elapsed:141.6s fed
+Running… LED:1 elapsed:142.1s fed
+Running… LED:0 elapsed:142.6s fed
+Running… LED:1 elapsed:143.1s fed
+Running… LED:0 elapsed:143.6s fed
+Running… LED:1 elapsed:144.1s fed
+Running… LED:0 elapsed:144.6s fed
+Running… LED:1 elapsed:145.1s fed
+Running… LED:0 elapsed:145.6s fed
+Running… LED:1 elapsed:146.1s fed
+Running… LED:0 elapsed:146.6s fed
+Running… LED:1 elapsed:147.1s fed
+Running… LED:0 elapsed:147.6s fed
+Running… LED:1 elapsed:148.1s fed
+Running… LED:0 elapsed:148.6s fed
+Running… LED:1 elapsed:149.1s fed
+Running… LED:0 elapsed:149.6s fed
+Running… LED:1 elapsed:150.1s fed
+Running… LED:0 elapsed:150.6s fed
+Running… LED:1 elapsed:151.1s fed
+Running… LED:0 elapsed:151.6s fed
+Running… LED:1 elapsed:152.1s fed
+Running… LED:0 elapsed:152.6s fed
+Running… LED:1 elapsed:153.1s fed
+Running… LED:0 elapsed:153.6s fed
+Running… LED:1 elapsed:154.1s fed
+Running… LED:0 elapsed:154.6s fed
+Running… LED:1 elapsed:155.1s fed
+Running… LED:0 elapsed:155.6s fed
+Running… LED:1 elapsed:156.1s fed
+Running… LED:0 elapsed:156.6s fed
+Running… LED:1 elapsed:157.1s fed
+Running… LED:0 elapsed:157.6s fed
+Running… LED:1 elapsed:158.1s fed
+Running… LED:0 elapsed:158.6s fed
+Running… LED:1 elapsed:159.1s fed
+Running… LED:0 elapsed:159.6s fed
+Running… LED:1 elapsed:160.1s fed
+Running… LED:0 elapsed:160.6s fed
+Running… LED:1 elapsed:161.1s fed
+Running… LED:0 elapsed:161.6s fed
+Running… LED:1 elapsed:162.1s fed
+Running… LED:0 elapsed:162.6s fed
+Running… LED:1 elapsed:163.1s fed
+Running… LED:0 elapsed:163.6s fed
+Running… LED:1 elapsed:164.1s fed
+Running… LED:0 elapsed:164.6s fed
+Running… LED:1 elapsed:165.1s fed
+Running… LED:0 elapsed:165.6s fed
+Running… LED:1 elapsed:166.1s fed
+Running… LED:0 elapsed:166.6s fed
+Running… LED:1 elapsed:167.1s fed
+Running… LED:0 elapsed:167.6s fed
+Running… LED:1 elapsed:168.1s fed
+Running… LED:0 elapsed:168.6s fed
+Running… LED:1 elapsed:169.1s fed
+Running… LED:0 elapsed:169.6s fed
+Running… LED:1 elapsed:170.1s fed
+Running… LED:0 elapsed:170.6s fed
+Running… LED:1 elapsed:171.1s fed
+Running… LED:0 elapsed:171.6s fed
+Running… LED:1 elapsed:172.1s fed
+Running… LED:0 elapsed:172.6s fed
+Running… LED:1 elapsed:173.1s fed
+Running… LED:0 elapsed:173.6s fed
+Running… LED:1 elapsed:174.1s fed
+Running… LED:0 elapsed:174.6s fed
+Running… LED:1 elapsed:175.1s fed
+Running… LED:0 elapsed:175.6s fed
+Running… LED:1 elapsed:176.1s fed
+Running… LED:0 elapsed:176.6s fed
+Running… LED:1 elapsed:177.1s fed
+Running… LED:0 elapsed:177.6s fed
+Running… LED:1 elapsed:178.1s fed
+Running… LED:0 elapsed:178.6s fed
+Running… LED:1 elapsed:179.1s fed
+Running… LED:0 elapsed:179.6s fed
+Graceful close with magic 'V' — no reboot expected.
+
+## Environment
+host: raspberrypi
+platform: Linux-6.12.47+rpt-rpi-v8-aarch64-with-glibc2.36
+python: 3.11.2
+uname: Linux raspberrypi 6.12.47+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64 GNU/Linux
+dmesg_tail: [    5.496988] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video23
+[    5.497010] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6
+[    5.497016] bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+[    5.497025] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+[    5.497031] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+[    5.497036] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+[    5.497228] bcm2835-isp bcm2835-isp: Loaded V4L2 bcm2835-isp
+[    5.593932] usbcore: registered new interface driver brcmfmac
+[    5.733075] brcmfmac: brcmf_c_process_txcap_blob: no txcap_blob available (err=-2)
+[    5.733540] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM4345/6 wl0: Aug 29 2023 01:47:08 version 7.45.265 (28bca26 CY) FWID 01-b677b91b
+[    6.826947] Adding 524284k swap on /var/swap.  Priority:-2 extents:12 across:909308k 
+[    8.265035] bcmgenet fd580000.ethernet: configuring instance for external RGMII (RX delay)
+[    8.266215] bcmgenet fd580000.ethernet eth0: Link is Down
+[    8.281775] brcmfmac: brcmf_cfg80211_set_power_mgmt: power save enabled
+[   18.254234] Initializing XFRM netlink socket
+[   18.813559] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[   20.651476] br-805873e5f7fe: port 1(vethe095c53) entered blocking state
+[   20.651511] br-805873e5f7fe: port 1(vethe095c53) entered disabled state
+[   20.651551] vethe095c53: entered allmulticast mode
+[   20.652360] vethe095c53: entered promiscuous mode
+[   20.743049] eth0: renamed from veth617914c
+[   20.744579] br-805873e5f7fe: port 1(vethe095c53) entered blocking state
+[   20.744601] br-805873e5f7fe: port 1(vethe095c53) entered forwarding state
+[   44.452123] Bluetooth: Core ver 2.22
+[   44.452229] NET: Registered PF_BLUETOOTH protocol family
+[   44.452234] Bluetooth: HCI device and connection manager initialized
+[   44.452252] Bluetooth: HCI socket layer initialized
+[   44.452260] Bluetooth: L2CAP socket layer initialized
+[   44.452272] Bluetooth: SCO socket layer initialized
+[  150.597942] bcmgenet fd580000.ethernet eth0: Link is Up - 100Mbps/Full - flow control rx/tx
+lsmod_watchdog: 

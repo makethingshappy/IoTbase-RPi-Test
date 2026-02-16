@@ -1,0 +1,57 @@
+# RS485 Echo Test Report
+Timestamp: 20260209_163359
+Port: /dev/ttyAMA0 @ 115200 baud
+==================================================
+
+Test 1: PASS
+  TX: Hello_RS485
+  RX: Hello_RS485
+  Latency: 2007.62ms
+
+Test 2: PASS
+  TX: Test_12345
+  RX: Test_12345
+  Latency: 2007.73ms
+
+Test 3: PASS
+  TX: ABCDEFGHIJ
+  RX: ABCDEFGHIJ
+  Latency: 2007.84ms
+
+Test 4: PASS
+  TX: IoTbase_RPi
+  RX: IoTbase_RPi
+  Latency: 2006.92ms
+
+Test 5: PASS
+  TX: !@#$%^&*()
+  RX: !@#$%^&*()    
+  Latency: 2008.4ms
+
+Test 6: PASS
+  TX: Short
+  RX: Short   
+  Latency: 2007.63ms
+
+Test 7: PASS
+  TX: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  RX: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  Latency: 2031.67ms
+
+Test 8: PASS
+  TX: MixedCase123
+  RX: MixedCase123      
+  Latency: 2015.68ms
+
+Test 9: PASS
+  TX: Spaces work too
+  RX: Spaces work too         
+  Latency: 2015.23ms
+
+Test 10: PASS
+  TX: Final_Test
+  RX: Final_Test      
+  Latency: 2008.13ms
+
+==================================================
+Summary: 10 PASS, 0 FAIL

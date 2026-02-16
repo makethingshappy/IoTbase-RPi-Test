@@ -1,0 +1,6 @@
+# HOST-P12 Input Snapshot
+Time: 20260204_110512
+DI1: 0
+DI2: 0
+DI3: 0
+DI4: 0

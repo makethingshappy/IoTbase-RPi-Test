@@ -1,0 +1,14 @@
+# GPIO Pair Test — AP2 -> AP3 + reverse
+bidir: True  |  cycles: 2  |  delay: 0.2s  |  pull: down
+env: host=raspberrypi python=3.11.2
+
+AP2->AP3: OUT=0 -> IN=0  OK
+AP2->AP3: OUT=1 -> IN=1  OK
+AP2->AP3: OUT=0 -> IN=0  OK
+AP2->AP3: OUT=1 -> IN=1  OK
+AP3->AP2: OUT=0 -> IN=0  OK
+AP3->AP2: OUT=1 -> IN=1  OK
+AP3->AP2: OUT=0 -> IN=0  OK
+AP3->AP2: OUT=1 -> IN=1  OK
+
+summary: pass=8 fail=0

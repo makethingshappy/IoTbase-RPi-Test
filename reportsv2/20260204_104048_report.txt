@@ -1,0 +1,40 @@
+# IoTBase EEPROM Validation Report
+timestamp: 20260204_104048
+
+## Environment
+host: raspberrypi
+platform: Linux-6.12.47+rpt-rpi-v8-aarch64-with-glibc2.36
+python: 3.11.2
+uname: Linux raspberrypi 6.12.47+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64 GNU/Linux
+i2c-tools: i2cdetect version 4.3
+smbus2: smbus2 0.4.2
+
+## i2cdetect -y 1 (raw)
+0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:                         -- -- -- -- -- -- -- -- 
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+50: -- -- -- -- 54 55 56 57 -- -- -- -- -- -- -- -- 
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+70: -- -- -- -- -- -- -- --
+
+## Programmatic I2C scan (write_quick)
+found: ['0x54', '0x55', '0x56', '0x57']
+
+Selected chip: 24C08 (base=0x54, size=1024 bytes)
+
+## Retention Verification Only
+Retention verify (0x200 len=128): OK CRC_saved=0xf503cdb5 CRC_now=0xf503cdb5 (56.5 ms)
+
+## Notes
+- Address range 0x54..0x57 indicates a 24C08 that encodes block bits into device address.
+- Extra device at 0x1b may exist (e.g., 1-Wire bridge) — not tested here.
+- Power/wiring used: 5V & GND from RPi, SDA=pin 3, SCL=pin 5; no simultaneous USB power to the board.
+- If needed, set I2C speed in /boot/firmware/config.txt (e.g., dtparam=i2c_arm_baudrate=400000) and reboot.
+
+Artifacts:
+  - Report TXT: reports/20260204_104048_report.txt
+  - Results JSON: reports/20260204_104048_results.json
+  - BIN (mid-block) saved during Test 4 for retention verification (path printed above).
